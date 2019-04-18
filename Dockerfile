@@ -5,4 +5,4 @@ from tomcat:8-jre8
 MAINTAINER "pravin.b.pawar@capgemini.com"
 
 #copy war fileon the container
-copy ./webapp.war /usr/localtomcat/webapps
+copy /opt/docker/webapp.war /usr/local/tomcat/webapps
